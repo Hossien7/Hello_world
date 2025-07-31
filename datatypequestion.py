@@ -19,6 +19,7 @@ Ali_dictionary = {
     'favorite_channel': fchannel,
     'favorite_artist': fartist,
 }
+
 end = f'My name is {Ali_dictionary['name']} {Ali_dictionary['last_name']},\
     I am {Ali_dictionary['age']} years old,\
     my weight is {Ali_dictionary['weight']} kg,\
@@ -26,4 +27,5 @@ end = f'My name is {Ali_dictionary['name']} {Ali_dictionary['last_name']},\
     my favorite car is {Ali_dictionary['favorite_car']}, my hobby is {Ali_dictionary['favorite_hobby']},\
     my favorite channel is {Ali_dictionary['favorite_channel']},\
     and my favorite artist is {Ali_dictionary['favorite_artist']}.'
+
 print(end)
