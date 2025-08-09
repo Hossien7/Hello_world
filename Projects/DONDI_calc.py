@@ -5,7 +5,7 @@ print("1.kg to g calculator")   # ok
 print("2.pounds to kg calculator")  # ok
 print("3. km to m and cm calculator")   # ok
 print("============================")
-option = int(input("Please select an option:")) 
+option = int(input("Please select an option:"))
 if option == 1:
     print(f"KG is equal to {(float(input("Enter weight in kg: ")) * 1000)} g.")
 elif option == 2:
