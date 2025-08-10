@@ -1,1 +1,4 @@
-name
+:
+
+        print(j*" ", end=" ")
+        print(i*"*")
