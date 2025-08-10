@@ -104,9 +104,6 @@ def pascal_triangle(n):
     
     Args:
         n (int): The number of rows in Pascal's Triangle."""
-    for i in range(n):
-        for j in range(n - i + 1):
-            pass
 
 
 my_list = [3, 7, 3, 2, 9, 3, 7, 7, 7, 2]
