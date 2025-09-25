@@ -1,7 +1,7 @@
 lst = [1, 4, 32, 5, 4, 234, 5, 1, 5]
 
 def sum_of_even_and_odd(lst):  # 1 Done
-    numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    numbers = lst
     even_sum = 0
     odd_sum = 0
     index = 0
@@ -105,7 +105,7 @@ def numbers(n): # 9 Done
     while multiplier <= 10:
         print(number, "x", multiplier, "=", number * multiplier)
         multiplier += 1
-numbers(10)
+# numbers(10)
 
 def sum_of_digit(lst):  # 10 Done
     sum = 0
@@ -115,5 +115,5 @@ def sum_of_digit(lst):  # 10 Done
             sum += lst[head]
         head += 1
     print(sum)
-print(sum_of_digit(lst=lst))
-print(fibo(10))
+print(sum_of_even_and_odd(lst=lst))
+# print(fibo(10))
